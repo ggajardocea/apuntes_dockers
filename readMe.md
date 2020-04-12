@@ -1,8 +1,13 @@
 # Tutorial dockers
 Los containers sueles ser confundidos con máquinas virtuales (MV), pero tienen importantes diferencias.
-La primera es que las máquinas virtuales tienen un OS cada una, a diferencia de los dockers que corren sobre el OS del host. Esto hace que las MV sean notoriamente más lentas y requieran de minutos para arrancar, a diferencia de los containers que solo requieren segundos.
+La principal es que las máquinas virtuales tienen un kernel cada una, a diferencia de los dockers que corren sobre el kernel del host. Esto hace que las MV sean notoriamente más lentas y requieran de minutos para arrancar, a diferencia de los containers que solo requieren segundos.
 
 ![alt text](https://www.nakivo.com/blog/wp-content/uploads/2019/05/Docker-containers-are-not-lightweight-virtual-machines.png "Diferencia entre VM y containers")
+
+Lo atractivo de los dockes es que permiten
++ Asegurar el funcionamiento de las apps en un mismo ambiente, sea donde sea que esté corriendo
++ Proyectos aislados. Eliminar conflictos de librerías y problemas de seguridad.
++ Permite que uno pueda continuar de forma simple proyectos de otras personas.
 
 ## Instalación
 Los detalles de la instalación del docker engine para ubuntu se pueden encontrar en este [link](https://docs.docker.com/engine/install/ubuntu/). Existe un _Convenience Script_ al final del tutorial, que si todo sale bien hace la instalación por si solo. Pero se recomienda seguir los pasos.
@@ -113,3 +118,15 @@ Para inspeccionar que es lo que está almacenando
 ```
 docker logs <container id | container name>
 ```
+
+### Environment Variables
+Algunas aplicaciones, por ejemplo una simple que tira un texto, como un de los ejemplos
+
+Al usar `docker inspect` se pueden encontrar las variables de ambiente que pueden modificarse en `config/env`.
+
+# Bibliografía y enlaces útiles
+[Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers](https://www.youtube.com/watch?v=fqMOX6JJhGo&t=1209s)
+
+[Docker Series — Creating your first Dockerfile. Medium](https://medium.com/pintail-labs/docker-series-creating-your-first-dockerfile-573bfea4991)
+
+[Learn Docker in 12 Minutes](https://www.youtube.com/watch?v=YFl2mCHdv24&t=)
