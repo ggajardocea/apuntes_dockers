@@ -12,7 +12,50 @@ Lo atractivo de los dockes es que permiten
 ## Instalación
 Los detalles de la instalación del docker engine para ubuntu se pueden encontrar en este [link](https://docs.docker.com/engine/install/ubuntu/). Existe un _Convenience Script_ al final del tutorial, que si todo sale bien hace la instalación por si solo. Pero se recomienda seguir los pasos.
 
+### Instalación en instancia Ubuntu vacía
+Luego de setear los proxys de la instancia, instalar el docker engine, se deben confirgurar los proxy para utilizar dockers, esto se hace mediante:
+
+1. Se crea un nuevo directorio para la configuración de docker service
+
+```
+sudo mkdir -p /etc/systemd/system/docker.service.d
+```
+
+2. Se crea un `proxy.conf` en la carpeta de confguración
+
+```
+sudo nano /etc/systemd/system/docker.service.d/proxy.conf
+```
+
+3. Se pegan la información de los proxys
+
+```
+[Service]
+Environment="HTTP_PROXY=http://proxy.analytics-prd-cl.awslocal:8081"
+
+Environment="NO_PROXY=localhost,127.0.0.1,localaddress,.localdomain.com,54.231.0.0/17,52.92.16.0/20$
+```
+
+4. Se vuelve a cargar la configuración del daemon (el servidor)
+```
+sudo systemctl daemon-reload
+```
+
+5. Se reinicia docker para guardar los cambios
+```
+sudo systemctl restart docker.service
+```
+
+6. Se prueba que funcione la conexión al docker hub
+
+```
+sudo docker login
+```
+
 ## Conceptos importantes
++ Daemon
++ Docker Engine
+
 + __Docker File__: consiste en un simple .txt para crear el container. Se hace un __build__ sobre este y con eso se crea la imagen, que luego se usa para hacer __run__ al docker
 Por ejemplo un docker file simple consiste en 3 cosas 
 ```
@@ -260,3 +303,5 @@ Docker hub, docker login
 [Docker Series — Creating your first Dockerfile. Medium](https://medium.com/pintail-labs/docker-series-creating-your-first-dockerfile-573bfea4991)
 
 [Learn Docker in 12 Minutes](https://www.youtube.com/watch?v=YFl2mCHdv24&t=)
+
+[How to set the proxy for docker on Ubuntu](https://www.serverlab.ca/tutorials/containers/docker/how-to-set-the-proxy-for-docker-on-ubuntu/)
