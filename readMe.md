@@ -227,7 +227,7 @@ Esto también implica que al crear multiples aplicaciones con la misma base, el 
 
 Las capas de la imagen son __Read Only__, los cambios de archivos o modificaciones se hacen en la capa del container. Esto debido a que la modificación de la imagen puede afectar múltiples dockers, pero a veces es necesario hacer modificaciones. Para esto, en la capa de container se crea una copia de la modificación.
 
-![layers](imagenes/layers.png)
+![layers](https://github.com/ggajardocea/apuntes_dockers/blob/master/imagenes/layers.PNG?raw=true)
 
 ### Volumes
 Como se mencionó antes, se puede mapear una carpeta del host al docker, para no perder data si se destruye el docker, estas se pueden mapear donde sea, pero dentro de la carpeta de instalación del docker se puede crear uno nuevo con
