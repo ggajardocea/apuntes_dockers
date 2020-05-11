@@ -104,3 +104,6 @@ sudo docker tag linear_models_3 <nombre_usuario>/app_pulenta:<tag_version>
 ```
 docker push <nombre_usuario>/app_pulenta
 ```
+
+## Trabajo futuro
++ Conectarse a redshift u otras fuentes de datos que no están en la docker image
