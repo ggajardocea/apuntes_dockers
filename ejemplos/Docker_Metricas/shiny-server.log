@@ -1,0 +1,36 @@
+[32m[2020-06-10T20:08:49.366] [INFO] shiny-server - [39mShiny Server v1.5.7.890 (Node.js v8.10.0)
+[32m[2020-06-10T20:08:49.367] [INFO] shiny-server - [39mUsing config file "/etc/shiny-server/shiny-server.conf"
+[32m[2020-06-10T20:08:49.400] [INFO] shiny-server - [39mStarting listener on 0.0.0.0:80
+[32m[2020-06-10T20:09:16.520] [INFO] shiny-server - [39mCreated bookmark state directory: /var/lib/shiny-server/bookmarks
+[32m[2020-06-10T20:09:16.520] [INFO] shiny-server - [39mCreated user bookmark state directory: /var/lib/shiny-server/bookmarks/shiny
+[32m[2020-06-10T20:09:17.281] [INFO] shiny-server - [39mError getting worker: Error: The application exited during initialization.
+[32m[2020-06-10T20:09:20.602] [INFO] shiny-server - [39mError getting worker: Error: The application exited during initialization.
+[32m[2020-06-10T20:09:39.055] [INFO] shiny-server - [39mError getting worker: Error: The application exited during initialization.
+[32m[2020-06-10T20:09:41.873] [INFO] shiny-server - [39mError getting worker: Error: The application exited during initialization.
+[32m[2020-06-10T20:11:19.678] [INFO] shiny-server - [39mStopping listener on 0.0.0.0:80
+[32m[2020-06-10T20:11:19.678] [INFO] shiny-server - [39mShutting down worker processes (with notification)
+[32m[2020-06-10T20:12:12.682] [INFO] shiny-server - [39mShiny Server v1.5.7.890 (Node.js v8.10.0)
+[32m[2020-06-10T20:12:12.683] [INFO] shiny-server - [39mUsing config file "/etc/shiny-server/shiny-server.conf"
+[32m[2020-06-10T20:12:12.719] [INFO] shiny-server - [39mStarting listener on 0.0.0.0:80
+[32m[2020-06-10T20:12:17.853] [INFO] shiny-server - [39mCreated bookmark state directory: /var/lib/shiny-server/bookmarks
+[32m[2020-06-10T20:12:17.854] [INFO] shiny-server - [39mCreated user bookmark state directory: /var/lib/shiny-server/bookmarks/shiny
+[32m[2020-06-10T20:12:18.715] [INFO] shiny-server - [39mError getting worker: Error: The application exited during initialization.
+[32m[2020-06-10T20:12:22.040] [INFO] shiny-server - [39mError getting worker: Error: The application exited during initialization.
+[32m[2020-06-10T20:14:59.394] [INFO] shiny-server - [39mStopping listener on 0.0.0.0:80
+[32m[2020-06-10T20:14:59.394] [INFO] shiny-server - [39mShutting down worker processes (with notification)
+[32m[2020-06-10T20:15:27.794] [INFO] shiny-server - [39mShiny Server v1.5.7.890 (Node.js v8.10.0)
+[32m[2020-06-10T20:15:27.795] [INFO] shiny-server - [39mUsing config file "/etc/shiny-server/shiny-server.conf"
+[32m[2020-06-10T20:15:27.831] [INFO] shiny-server - [39mStarting listener on 0.0.0.0:80
+[32m[2020-06-10T20:15:47.396] [INFO] shiny-server - [39mCreated bookmark state directory: /var/lib/shiny-server/bookmarks
+[32m[2020-06-10T20:15:47.396] [INFO] shiny-server - [39mCreated user bookmark state directory: /var/lib/shiny-server/bookmarks/shiny
+[32m[2020-06-10T20:15:48.247] [INFO] shiny-server - [39mError getting worker: Error: The application exited during initialization.
+[32m[2020-06-10T20:15:52.470] [INFO] shiny-server - [39mError getting worker: Error: The application exited during initialization.
+[32m[2020-06-10T20:16:00.798] [INFO] shiny-server - [39mStopping listener on 0.0.0.0:80
+[32m[2020-06-10T20:16:00.798] [INFO] shiny-server - [39mShutting down worker processes (with notification)
+[32m[2020-06-10T20:46:11.199] [INFO] shiny-server - [39mShiny Server v1.5.7.890 (Node.js v8.10.0)
+[32m[2020-06-10T20:46:11.200] [INFO] shiny-server - [39mUsing config file "/etc/shiny-server/shiny-server.conf"
+[32m[2020-06-10T20:46:11.235] [INFO] shiny-server - [39mStarting listener on 0.0.0.0:80
+[32m[2020-06-10T20:46:15.184] [INFO] shiny-server - [39mCreated bookmark state directory: /var/lib/shiny-server/bookmarks
+[32m[2020-06-10T20:46:15.185] [INFO] shiny-server - [39mCreated user bookmark state directory: /var/lib/shiny-server/bookmarks/shiny
+[32m[2020-06-10T20:48:55.902] [INFO] shiny-server - [39mStopping listener on 0.0.0.0:80
+[32m[2020-06-10T20:48:55.902] [INFO] shiny-server - [39mShutting down worker processes (with notification)

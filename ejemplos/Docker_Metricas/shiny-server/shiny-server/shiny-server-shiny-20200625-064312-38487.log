@@ -1,0 +1,3 @@
+Error in loadNamespace(name) : there is no package called ‘digest’
+Calls: local ... tryCatch -> tryCatchList -> tryCatchOne -> <Anonymous>
+Execution halted
